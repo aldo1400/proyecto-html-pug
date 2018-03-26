@@ -1,0 +1,27 @@
+.logo{
+    width: 200px;
+}
+.main-header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+   
+}
+.menu ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0 0 0 auto;
+    list-style:none;
+}
+.menu {
+    margin-left: auto;
+}
+.menu li {
+    margin: 0 .5em;
+}
