@@ -25,3 +25,19 @@
 .menu li {
     margin: 0 .5em;
 }
+
+footer{
+    background: #333;
+    color: #ddd;
+    padding: 1em;
+    margin-top: 3em;
+}
+footer a{
+    color:#fff;
+}
+
+.siguenos a{
+    display: inline-block;
+    margin: 0 .5em;
+    font-size: .9m;
+}
