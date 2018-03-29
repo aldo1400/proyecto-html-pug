@@ -11,14 +11,14 @@ html
         link(rel='stylesheet' href='https://cdn.rawgit.com/escueladigital/EDgrid/1f5abcec/css/ed-grid.min.css')
         link(href="https://file.myfontastic.com/t7hBDHWu9wBc2iy6xnVM4Z/icons.css" rel="stylesheet")
         link(rel='stylesheet' href='/css/styles-dist.css')
-    body
+    body(class=currentPage)
         header.main-header
             .logo-container
                 a(href="/")
                     img(src='/img/descarga.png').logo
             nav.menu
                 include ../blocks/menu.pug
-        div
+        div.main-banner
             block banner
                 img(src='/img/'+currentPage + '.jpg')
         .main-content

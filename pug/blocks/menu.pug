@@ -1,6 +1,7 @@
 ul
     each page in pages
+        -page == currentPage ? active = 'active' : active = ''
         //- if page=='inicio'
         //-     li: a(href='/') #{page}
-        if page!='inicio'
-            li: a(href=page+'.html') #{page}
+        if page != 'inicio'
+            li: a(href=page+'.html' class=active) #{page}
